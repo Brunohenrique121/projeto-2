@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #6b0606f5;
+    justify-self: center;
+}
+
+
+button {
+    background-color:#c24e4ec5;
+    color: rgb(20, 20, 20);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    gap: 5px;
+}
+
+button:hover {
+    background-color: #ca1010;
+
+}
+
+#carrinho {
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 20px;
+    background-color:#faf9f9;
+    width: 500px;
+    
+}
+
+header{
+    color: #ccc;   
+    font-size:25px;
+    font-style: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+justify-self: center;
+}
+h1,h3 {
+    color: #ccc;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+a:hover {
+    color: #FF7F50;
+}
+#finalizarCompra{
+    background-color: #f9fff9;
+}
+#finalizarCompra:hover{
+    background-color: #1ccf58;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+    align-items: end;
+}

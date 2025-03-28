@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>loja Virtual</title>
+</head>
+<body>
+
+   <header>
+    <div class="carrosel">
+        <h1>VestPrime</h1>
+     </div>
+     
+    </header>
+    <ul>
+        <li><a href="#inicio">inicio</a></li>
+
+        <li><a href="#roupas_femininas">roupas femininas</a></li>
+
+        <li><a href="#roupas_masculinas">roupas masculinas</a></li>
+    </ul>
+
+    <a href="carrinho.html">
+        <img class="carrinho" src="carrinho-de-compras.png" alt="Carrinho" width="50">
+    </a>
+
+<section id="inicio">
+    <div class="roupas">
+         <h2>nossas ofertas &#129321 &#128576 </h2>
+    </div>
+</section>
+
+<section id="roupas_femininas">
+    <div class="box">
+        <img src="vestidolongo.jpg" alt=""
+        width="100px">
+        <h3>vestido longo</h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-1">5</span></p>
+        <button class="comprar" data-nome="vestido longo" data-preco="79.90" data-id="1" onclick="adicionarAoCarrinho(this)" >Adicionar ao Carrinho</button>
+    </div>
+    
+    <div class="box">
+        <img src="vestido2.jpg" alt=""
+        width="100px">
+        <h3>vestido curto detalhe</h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-2">3</span></p>
+        <button class="comprar" data-nome="vestido curto" data-preco="79.90" data-id="2"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+    </div>
+
+    <div class="box">
+        <img src="calça alfaiataria bag.jpg" alt=""
+        width="100px">
+        <h3>Calça Alfaiataria</h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-3">4</span></p>
+        <button class="comprar" data-nome="Calça alfaiataria" data-preco="79.90" data-id="3"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+
+    </div>
+
+    <div class="box">
+        <img src="vestido3.jpg" alt=""
+        width="100px">
+        <h3>vestido de malha curto </h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-6">5</span></p>
+        <button class="comprar" data-nome="vestido malha" data-preco="79.90" data-id="6"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+
+    </div>
+
+    <div class="box">
+        <img src="blusa1.jpg" alt=""
+        width="100px">
+        <h3>blusa canelada um ombro</h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-7">7</span></p>
+        <button class="comprar" data-nome="blusa canelada um ombro" data-preco="79.90" data-id="7"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+
+    </div>
+
+    <div class="box">
+        <img src="calça pantalona.jpg" alt=""
+        width="100px">
+        <h3>Conjunto Jeans</h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-8">4</span></p>
+        <button class="comprar" data-nome="Conjunto Jeans" data-preco="79.90" data-id="8"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+
+    </div>
+</section>
+
+<section id="roupas_masculinas">
+
+
+    <div class="box">
+        <img src="regata box.jpg" alt=""
+        width="100px">
+        <h3>regata Oversized</h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-9">5</span></p>
+        <button class="comprar" data-nome="regata Oversized" data-preco="79.90" data-id="9"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+
+    </div>
+  
+    <div class="box">
+        <img src="calça moletom masculina.jpg" alt=""
+        width="100px">
+        <h3>Calça moletom masculina</h3>
+        <p>R$ 79,90</p>
+        <p>Estoque: <span id="estoque-5">2</span></p>
+        <button class="comprar" data-nome="Calça moletom Masculinas" data-preco="79.90" data-id="5"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+  </div>
+
+  <div class="box">
+    <img src="camisa orvezide.jpg" alt=""
+    width="100px">
+    <h3>Camisa Oversized</h3>
+    <p>R$ 79,90</p>
+    <p>Estoque: <span id="estoque-4">6</span></p>
+    <button class="comprar" data-nome="Camisa Oversized" data-preco="79.90" data-id="4"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+</div>
+
+<div class="box">
+    <img src="calça jeans masc.jpg" alt=""
+    width="100px">
+    <h3>Calça jeans masculina</h3>
+    <p>R$ 79,90</p>
+    <p>Estoque: <span id="estoque-10">6</span></p>
+    <button class="comprar" data-nome="Calça jeans" data-preco="79.90" data-id="10"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+</div>
+
+<div class="box">
+    <img src="camisa polo.jpg" alt=""
+    width="100px">
+    <h3>Camisa polo</h3>
+    <p>R$ 79,90</p>
+    <p>Estoque: <span id="estoque-11">7</span></p>
+    <button class="comprar" data-nome="Camisa polo" data-preco="79.90" data-id="11"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+</div>
+
+<div class="box">
+    <img src="calça alfaiataria masculina.jpg" alt=""
+    width="100px">
+    <h3>Calça Alfaiataria masculina</h3>
+    <p>R$ 79,90</p>
+    <p>Estoque: <span id="estoque-12">5</span></p>
+    <button class="comprar" data-nome="Calça alfaiataria masculina" data-preco="79.90" data-id="12"  onclick="adicionarAoCarrinho(this)">Adicionar ao Carrinho</button>
+</div>
+</section>
+
+
+
+
+
+
+
+
+<footer>  
+    <p>&copy; 2025 Empresa "VestPrime". Todos os direitos reservados.</p>
+</footer>
+  
+
+<script src="carrinho.js"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+.carrosel{
+    text-align: center;
+       color: #000;
+       font-family: serif;
+   
+
+   
+   }
+   h1{
+    color: #fdf9f9;
+    
+    font-size:35px;
+    font-style: initial;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+  
+   body{
+       background-color: #850909;
+       display: flexbox;
+   }
+   
+   .roupas{
+   
+   text-align:center;
+   font-family: serif;
+   align-self:auto;
+   padding: 10px;
+   color: #000;
+   
+   }
+   
+   .box {
+    padding: 20px;
+    background-color: #f0e6c5;
+    text-align: center;
+    border-radius: 20px;
+    width: 150px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+   img{
+   border-radius: 20px;
+   width: 150px;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+img:hover {
+    transform: scale(2.0); 
+}
+   
+   #roupas_masculinas{
+    margin: 20px;
+   width: 10px;
+   margin:auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #520a0a7c;
+
+   
+   }
+
+   section{
+   align-items: center;   
+   }
+
+
+#roupas_femininas{
+    margin: 20px;
+   width: 10px;
+   margin: auto;
+   display: flex;
+   align-items: center;
+   background-color: #520a0a7c;
+   margin-bottom: 5px;
+   
+   
+   }
+   #roupas_masculinas, #roupas_femininas {
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+    width: 80%;
+    grid-template-columns: repeat(4, 1fr); 
+}
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #FF7F50;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    color: #fff;
+}
+#inicio{
+    background-color: #ffe6e74f;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.carrinho{
+    width: 40px;
+    margin-left: 1350px;
+
+}
+
+button{
+    color: #fffdfd;
+    background-color: #050706;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #fdf9f9;
+    color: #000;
+}

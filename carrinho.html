@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+
+    <header>
+        <h1>VestPrime</h1>
+
+    </header>
+
+    <h1>Carrinho</h1>
+
+    <div id="carrinho">
+       
+    </div>
+
+    <div id="total">
+        <h3>Total: R$<span id="valorTotal">0.00</span></h3>
+    </div>
+
+    <button id="finalizarCompra" onclick="finalizarCompra()">Finalizar Compra</button>
+    
+    <div id="reciboModal" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 1px solid #ccc; box-shadow: 0px 0px 10px rgba(0,0,0,0.1);">
+        <h2>Recibo</h2>
+        <div id="reciboDetalhes"></div>
+        <button onclick="fecharRecibo()">Fechar</button>
+    </div>
+    
+    <a href="index2.html">Voltar para a Loja</a>
+    
+    <footer>
+        <p>&copy; 2025 VestPrime. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="carrinho.js"></script>
+</body>
+</html>
